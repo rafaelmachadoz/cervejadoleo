@@ -163,7 +163,7 @@ h3 {
     right: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: fit content;
+    width: fit-content;
 }
 
 .rodape {
