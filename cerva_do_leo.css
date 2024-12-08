@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fredoka;
+    text-decoration: none;
+    text-align: center;
+}
+
+.mural {
+    background-color: #80331e;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mural img {
+    width: 350px;  
+}
+
+.mural a {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+    color: #78d956;
+    font-size: 20px;
+    text-align: center;
+}
+
+.parallax-1 {
+    background-image: url(IMG_1812.JPG);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mestre-cervejeiro img {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.mestre-cervejeiro {
+    background-color: #80331e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mestre-cervejeiro h2 {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.historia {
+    background-color: #80331e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.historia h2 {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.scroll-fotos {
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto 0 20px auto;
+    background-color: #80331e;
+}
+
+.scroll-fotos img {
+    width: 300px;
+    margin: 10px;
+}
+
+.cervejas {
+    background-color: #80331e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cervejas h2 {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+
+ul {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: left;
+}
+
+.cervejas p {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.contato a {
+    width: 200px;
+    padding: 15px 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+    color: #78d956;
+    font-size: 30px;
+    text-align: center;
+}
+
+.parallax-2 {
+    background-image: url(IMG_1812.JPG);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.contato {
+    position: absolute;
+    top: 50%;
+    right: 43%;
+
+}
+
+.rodape {
+    background-color: #2d2d2d;
+    color: #78d956;
+    font-size: 15px;
+}
