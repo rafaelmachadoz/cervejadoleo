@@ -15,7 +15,7 @@
 }
 
 .mural img {
-    width: 350px;  
+    max-width: 350px;  
 }
 
 .mural a {
