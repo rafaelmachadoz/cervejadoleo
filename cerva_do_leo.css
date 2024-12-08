@@ -15,7 +15,9 @@
 }
 
 .mural img {
-    width: 350px;  
+    max-width: 350px;
+    width: 100%;
+    height: auto;
 }
 
 .mural a {
@@ -40,8 +42,9 @@
 }
 
 .mestre-cervejeiro img {
-   width: 300px;
-   height: 300px;
+   max-width: 350px;
+   width: 100%;
+   height: auto;
    border-radius: 50%;
    object-fit: cover;
 }
@@ -56,6 +59,8 @@
     font-size: 20px;
     font-weight: normal;
     padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -70,20 +75,25 @@
     font-size: 20px;
     font-weight: normal;
     padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     max-width: 1200px;
     margin: 0 auto; 
 }
 
 .scroll-fotos {
     display: flex;
-    overflow-x: scroll;
-    margin: 0 auto 0 20px auto;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+    margin: 0 auto;
     background-color: #80331e;
 }
 
 .scroll-fotos img {
-    width: 300px;
-    margin: 10px;
+    width: 250px;
+    max-width: 100%;
+    flex: 0 0 auto;
 }
 
 .cervejas {
@@ -96,6 +106,8 @@
     font-size: 20px;
     font-weight: normal;
     padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     max-width: 1200px;
     margin: 0 auto;  
 }
@@ -104,17 +116,23 @@ ul {
     font-size: 20px;
     font-weight: normal;
     padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 h3 {
     text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .cervejas p {
     text-align: left;
     margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .contato a {
@@ -142,8 +160,10 @@ h3 {
 .contato {
     position: absolute;
     top: 50%;
-    right: 43%;
-
+    right: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: fit content;
 }
 
 .rodape {
