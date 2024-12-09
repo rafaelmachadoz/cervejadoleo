@@ -52,7 +52,7 @@
     .parallax-1 {
         background-size: cover;
         background-position: center;
-        height: 250px;
+        min-height: 250px;
         background-attachment: scroll;
     }
 }
