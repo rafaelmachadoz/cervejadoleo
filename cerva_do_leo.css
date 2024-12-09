@@ -72,7 +72,7 @@
 .mestre-cervejeiro h2 {
     font-size: 20px;
     font-weight: normal;
-    padding: 30px 20px;
+    padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -86,7 +86,7 @@
 .historia h2 {
     font-size: 20px;
     font-weight: normal;
-    padding: 30px 20px;
+    padding: 20px;
     max-width: 1200px;
     margin: 0 auto; 
 }
@@ -111,7 +111,7 @@
 .cervejas h2 {
     font-size: 20px;
     font-weight: normal;
-    padding: 30px 20px;
+    padding: 20px;
     max-width: 1200px;
     margin: 0 auto;  
 }
@@ -127,12 +127,10 @@ ul {
 
 .cervejas h3 {
     text-align: center;
-    padding: 30px 20px;
 }
 
 .cervejas p {
     text-align: center;
-    padding: 30px 20px;
     margin-bottom: 15px;
 }
 
