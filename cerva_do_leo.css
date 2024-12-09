@@ -94,15 +94,6 @@
     border-radius: 10px;
 }
 
-@keyframes scroll {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-}
-
 .cervejas {
     background-color: #80331e;
     padding-top: 30px;
