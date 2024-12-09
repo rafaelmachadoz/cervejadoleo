@@ -55,6 +55,7 @@
 .mestre-cervejeiro img {
    width: 300px;
    height: 300px;
+   margin-top: 10px;
    border-radius: 50%;
    object-fit: cover;
 }
