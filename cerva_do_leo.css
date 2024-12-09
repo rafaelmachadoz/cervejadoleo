@@ -61,7 +61,7 @@
 
 .mestre-cervejeiro {
     background-color: #80331e;
-    padding: 30px 20px;
+    padding: auto 20px;
 }
 
 .mestre-cervejeiro h2 {
@@ -75,7 +75,7 @@
 
 .historia {
     background-color: #80331e;
-    padding: 30px 20px;
+    padding: auto 20px;
 }
 
 .historia h2 {
@@ -101,7 +101,7 @@
 
 .cervejas {
     background-color: #80331e;
-    padding: 30px 20px;
+    padding: auto 20px;
 }
 
 .cervejas h2 {
