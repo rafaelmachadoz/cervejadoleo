@@ -52,7 +52,7 @@
     .parallax-1 {
         background-attachment: scroll;
         height: 300px;
-        background-position: center center;
+        background-position: center bottom;
     }
 }
 
@@ -168,7 +168,7 @@ ul {
     .parallax-2 {
         background-attachment: scroll;
         height: 300px;
-        background-position: center center;
+        background-position: center bottom;
     }
 }
 
