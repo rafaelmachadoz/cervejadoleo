@@ -55,8 +55,7 @@
 
 .mestre-cervejeiro {
     background-color: #80331e;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 20px;
 }
 
 .mestre-cervejeiro h2 {
@@ -92,7 +91,7 @@
 
 .scroll-fotos img {
     width: 300px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .cervejas {
