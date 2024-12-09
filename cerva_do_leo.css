@@ -10,12 +10,39 @@
 .mural {
     background-color: #80331e;
     width: 100%;
-    padding: 30px 10px;
-    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
 }
 
 .mural img {
     width: 350px;  
+}
+
+@media (max-width: 600px) {
+    .mural {
+        gap: 10px;  /* Menos espaçamento entre os botões em telas pequenas */
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 .mural a {
