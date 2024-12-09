@@ -10,31 +10,32 @@
 .mural {
     background-color: #80331e;
     width: 100%;
-    padding: 30px 10px; 
-    text-align: center; 
+    padding: 30px 20px;
+    text-align: center;
 }
 
 .mural img {
     width: 350px;  
 }
 
-@media (max-width: 480px) {
-    .mural a {
-        width: 80%; 
-        font-size: 16px;
-        padding: 8px 15px; 
-    }
-
 .mural a {
     display: inline-block;
-    width: 50%;
-    max-width: 200px;
-    padding: 10px 20px;
+    width: 60%;
+    max-width: 250px;
+    padding: 12px 25px;
     border-radius: 10px;
     background-color: #2d2d2d;
     color: #78d956;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
+}
+
+@media (max-width: 500px) {
+    .mural a {
+        width: 70%;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
 }
 
 .parallax-1 {
@@ -98,7 +99,7 @@
     background-color: #80331e;
     padding-top: 30px;
     padding-bottom: 30px;
-}  
+}
 
 .cervejas h2 {
     font-size: 20px;
