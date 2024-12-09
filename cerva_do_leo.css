@@ -135,14 +135,22 @@ ul {
 }
 
 .contato a {
+    display: inline-block;
     width: 200px;
     padding: 15px 30px;
-    margin: 0 auto;
     border-radius: 10px;
     background-color: #2d2d2d;
     color: #78d956;
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
+}
+
+@media (max-width: 500px) {
+    .contato a {
+        width: 70%;
+        font-size: 18px;
+        padding: 12px 20px; 
+    }
 }
 
 .parallax-2 {
@@ -167,8 +175,8 @@ ul {
 .contato {
     position: absolute;
     top: 50%;
-    right: 43%;
-
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .rodape {
