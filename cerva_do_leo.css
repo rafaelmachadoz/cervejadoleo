@@ -10,8 +10,8 @@
 .mural {
     background-color: #80331e;
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 10px;
+    text-align: center;
 }
 
 .mural img {
@@ -19,9 +19,10 @@
 }
 
 .mural a {
-    width: 200px;
-    padding: 10px 25px;
-    margin: 0 auto;
+    display: inline-block;
+    width: 50%;
+    max-width: 200px;
+    padding: 10px 20px;
     border-radius: 10px;
     background-color: #2d2d2d;
     color: #78d956;
