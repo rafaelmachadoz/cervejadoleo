@@ -22,7 +22,7 @@
     display: inline-block;
     width: 60%;
     max-width: 250px;
-    padding: 4px 8px;
+    padding: 4px 4px;
     background-color: #2d2d2d;
     border-radius: 10px;
     color: #78d956;
@@ -34,7 +34,7 @@
     .mural a {
         width: 70%;
         font-size: 18px;
-        padding: 2px 4px;
+        padding: 2px 2px;
     }
 }
 
