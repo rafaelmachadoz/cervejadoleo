@@ -18,6 +18,8 @@
     max-width: 350px;
     width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .mural a {
@@ -46,7 +48,8 @@
    width: 100%;
    height: auto;
    border-radius: 50%;
-   object-fit: cover;
+   display: block;
+   margin: 0 auto;
 }
 
 .mestre-cervejeiro {
@@ -91,9 +94,11 @@
 }
 
 .scroll-fotos img {
-    width: 250px;
+    width: 350px;
     max-width: 100%;
-    flex: 0 0 auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .cervejas {
@@ -136,9 +141,7 @@ h3 {
 }
 
 .contato a {
-    width: 200px;
     padding: 15px 30px;
-    margin: 0 auto;
     border-radius: 10px;
     background-color: #2d2d2d;
     color: #78d956;
@@ -154,7 +157,9 @@ h3 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contato {
