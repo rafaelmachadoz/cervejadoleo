@@ -10,19 +10,20 @@
 .mural {
     background-color: #80331e;
     width: 100%;
-    padding: 30px 20px;
+    padding: 0 20px;
     text-align: center;
 }
 
 .mural img {
-    width: 350px;  
+    width: 350px;
+    padding: 30px 20px;
 }
 
 .mural a {
     display: inline-block;
     width: 60%;
     max-width: 250px;
-    padding: 12px 25px;
+    padding: 10px 20px;
     border-radius: 10px;
     background-color: #2d2d2d;
     color: #78d956;
@@ -34,7 +35,7 @@
     .mural a {
         width: 70%;
         font-size: 18px;
-        padding: 10px 20px;
+        padding: 8px 15px;
     }
 }
 
@@ -59,34 +60,35 @@
 .mestre-cervejeiro img {
    width: 300px;
    height: 300px;
+   padding: 30px 20px;
    border-radius: 50%;
    object-fit: cover;
 }
 
 .mestre-cervejeiro {
     background-color: #80331e;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
 .mestre-cervejeiro h2 {
     font-size: 20px;
     font-weight: normal;
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .historia {
     background-color: #80331e;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .historia h2 {
     font-size: 20px;
     font-weight: normal;
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     max-width: 1200px;
     margin: 0 auto; 
 }
@@ -94,6 +96,7 @@
 .scroll-fotos {
     display: flex;
     overflow-x: scroll;
+    padding: 0 20px;
     margin: 0 auto 0 20px auto;
     background-color: #80331e;
 }
@@ -111,7 +114,7 @@
 .cervejas h2 {
     font-size: 20px;
     font-weight: normal;
-    padding: 20px;
+    padding-bottom: 20px;
     max-width: 1200px;
     margin: 0 auto;  
 }
@@ -120,18 +123,18 @@ ul {
     list-style-type: none;
     font-size: 20px;
     font-weight: normal;
-    padding: 30px 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .cervejas h3 {
     text-align: center;
+    padding-top: 20px;
+    padding_bottom: 20px;
 }
 
 .cervejas p {
     text-align: center;
-    margin-bottom: 15px;
 }
 
 .contato a {
