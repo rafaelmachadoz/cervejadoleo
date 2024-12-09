@@ -23,8 +23,6 @@
     width: 60%;
     max-width: 250px;
     padding: 10px 20px;
-    border-radius: 10px;
-    background-color: #2d2d2d;
     color: #78d956;
     font-size: 20px;
     text-align: center;
@@ -64,7 +62,7 @@
 .mestre-cervejeiro h2 {
     font-size: 20px;
     font-weight: normal;
-    padding: 20px;
+    padding: 30px 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -78,7 +76,7 @@
 .historia h2 {
     font-size: 20px;
     font-weight: normal;
-    padding: 20px;
+    padding: 30px 20px;
     max-width: 1200px;
     margin: 0 auto; 
 }
@@ -92,7 +90,7 @@
 
 .scroll-fotos img {
     width: 300px;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 .cervejas {
