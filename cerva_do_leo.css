@@ -13,10 +13,14 @@
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;  
     gap: 20px; 
     flex-wrap: wrap; 
+    margin-top: 50px;
+    align-items: center;
+    min-height: 100vh; 
 }
+
 
 .btn {
     padding: 10px 20px;
@@ -29,9 +33,11 @@
     transition: background-color 0.3s;
 }
 
+
 .btn:hover {
-    background-color: #45a049;
+    background-color: #45a049;
 }
+
 
 .mural img {
     width: 350px;  
@@ -39,9 +45,10 @@
 
 @media (max-width: 600px) {
     .mural {
-        gap: 10px;  /* Menos espaçamento entre os botões em telas pequenas */
+        gap: 10px; 
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px; 
     }
 }
 
