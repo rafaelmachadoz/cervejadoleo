@@ -10,47 +10,20 @@
 .mural {
     background-color: #80331e;
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    justify-content: center;  
-    gap: 20px; 
-    flex-wrap: wrap; 
-    margin-top: 50px;
-    align-items: center;
-    min-height: 100vh; 
+    padding: 30px 10px; 
+    text-align: center; 
 }
-
-
-.btn {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-
-.btn:hover {
-    background-color: #45a049;
-}
-
 
 .mural img {
     width: 350px;  
 }
 
-@media (max-width: 600px) {
-    .mural {
-        gap: 10px; 
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-top: 20px; 
-    }
-}
+@media (max-width: 480px) {
+    .mural a {
+        width: 80%; 
+        font-size: 16px;
+        padding: 8px 15px; 
+    }
 
 .mural a {
     display: inline-block;
@@ -60,7 +33,7 @@
     border-radius: 10px;
     background-color: #2d2d2d;
     color: #78d956;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
