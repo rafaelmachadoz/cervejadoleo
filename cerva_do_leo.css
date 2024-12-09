@@ -75,15 +75,32 @@
 }
 
 .scroll-fotos {
-    display: flex;
-    overflow-x: scroll;
-    margin: 0 auto 0 20px auto;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
     background-color: #80331e;
 }
 
+.scroll-track {
+    display: flex;
+    gap: 20px;
+    width: calc(300px * 10);
+    animation: scroll 20s linear infinite; 
+
 .scroll-fotos img {
     width: 300px;
-    margin: 10px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 .cervejas {
