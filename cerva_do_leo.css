@@ -62,32 +62,18 @@
    object-fit: cover;
 }
 
-.mestre-cervejeiro {
+.mestre-cervejeiro, .historia, .cervejas {
     background-color: #80331e;
     padding: 20px;
 }
 
-.mestre-cervejeiro h2 {
+.mestre-cervejeiro h2, .historia h2, .cervejas h2 {
     font-size: 20px;
     text-align: justify;
     font-weight: normal;
     padding: 30px 20px;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.historia {
-    background-color: #80331e;
-    padding: 20px;
-}
-
-.historia h2 {
-    font-size: 20px;
-    font-weight: normal;
-    text-align: justify;
-    padding: 30px 20px;
-    max-width: 1200px;
-    margin: 0 auto; 
 }
 
 .scroll-fotos {
@@ -100,20 +86,6 @@
 .scroll-fotos img {
     width: 300px;
     margin: 20px;
-}
-
-.cervejas {
-    background-color: #80331e;
-    padding: 20px;
-}
-
-.cervejas h2 {
-    font-size: 20px;
-    font-weight: normal;
-    text-align: justify;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;  
 }
 
 ul {
